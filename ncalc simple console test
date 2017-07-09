@@ -18,7 +18,7 @@ namespace ConsoleApp1
             //Expression e = new Expression("Round(Pow([Pi], 2) + Pow([Pi2], 2) + [X], 2)");
             Expression e = new Expression(formula);
 
-            e.Parameters["Ingreso Neto"] = new Expression("IngresoNeto");
+            //e.Parameters["Ingreso Neto"] = new Expression("IngresoNeto");
             //e.Parameters["IngresoNeto"] = 10;
             //e.Parameters["ROE"] = 20;
 
