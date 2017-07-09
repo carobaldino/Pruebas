@@ -29,7 +29,7 @@ namespace ConsoleApp1
                 if (name == "ROE")
                     argumento.Result = 10;
             };
-            var valor = e.Evaluate().ToString();
+           
             Console.WriteLine(e.Evaluate());
             Console.ReadKey();
 
